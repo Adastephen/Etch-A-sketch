@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container-board{
+    width: 500px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    color:black;
+    font-family: Helvetica, 'Times New Roman', Times, serif;
+}
+
+#board {
+    width: 500;
+    height: 500px;
+    display: grid;
+    border: 1px solid gray;
+}
+#controls{
+    display: block;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
